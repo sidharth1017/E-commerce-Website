@@ -1,0 +1,60 @@
+.inquiryForm {
+  background: white;
+  margin: 20px 0;
+  border-radius: 13px;
+  width: 450px;
+}
+
+.heading {
+  font-size: 18px;
+  padding: 20px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.formDiv > input {
+  margin: 10px 0;
+  border: none;
+  background: #f0f0f0;
+  padding: 15px;
+  outline: none;
+  border-radius: 30px;
+}
+.formDiv > textarea {
+  margin: 10px 0;
+  border: none;
+  background: #f0f0f0;
+  padding: 15px;
+  outline: none;
+  border-radius: 30px;
+  height: 30px;
+  min-height: 140px;
+  max-height: 180px;
+}
+
+.formDiv button{
+    margin: auto;
+    background: #3498DB;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.successMessage{
+  margin: 20px;
+  margin-bottom: 0px;
+  background: green;
+  color: white;
+  padding: 20px;
+  border-radius: 13px;
+}
